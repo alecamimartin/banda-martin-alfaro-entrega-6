@@ -10,7 +10,7 @@
     #bodyHome {
         width: 100%;
         height: 100%;
-        background-color: crimson;
+        background-image: linear-gradient(to right, red, crimson, yellow);
 
         display: grid;
 
@@ -36,7 +36,7 @@
     }
 
     #header {
-        background-color: aqua;
+        background-image: linear-gradient(to right, skyblue, blue);
         grid-area: header;
         display: flex;
         flex-flow: column wrap;
@@ -45,22 +45,22 @@
 
     #sectionImg {
         width: 100%;
-        background-color: pink; /* aplicar degrade */
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: sectionImg;
     }
 
     #publicity {
-        background-color: red;
+        background-image: linear-gradient(to left, red, crimson, yellow);
         grid-area: publicity;
     }
 
     #sectionVideos {
-        background-color: blue;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: sectionVideos;
     }
 
     #footer {
-        background-color: green;
+        background-image: linear-gradient(to bottom, green, yellowgreen);
         grid-area: footer;
         display: flex;
     }
@@ -70,7 +70,7 @@
     #bodyGallery {
         width: 100%;
         height: 100%;
-        background-color: crimson;
+        background-image: linear-gradient(to right, red, crimson, yellow);
 
         display: grid;
 
@@ -116,7 +116,7 @@
     }
 
     #header {
-        background-color: aqua;
+        background-image: linear-gradient(to right, skyblue, blue);
         grid-area: header;
         display: flex;
         flex-flow: column wrap;
@@ -124,22 +124,22 @@
     }
 
     #gallery {
-        background-color: orange;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: gallery;
     }
 
     #galleryImg {
-        background-color: brown;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: galleryImg;
     }
 
     #galleryVideos {
-        background-color: red;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: galleryVideos;
     }
 
     #footer {
-        background-color: green;
+        background-image: linear-gradient(to bottom, green, yellowgreen);
         grid-area: footer;
         display: flex;
     }
@@ -150,7 +150,7 @@
     #bodyDiscography {
         width: 100%;
         height: 100%;
-        background-color: crimson;
+        background-image: linear-gradient(to right, red, crimson, yellow);
 
         display: grid;
 
@@ -206,7 +206,7 @@
     }
 
     #header {
-        background-color: aqua;
+        background-image: linear-gradient(to right, skyblue, blue);
         grid-area: header;
         display: flex;
         flex-flow: column wrap;
@@ -214,17 +214,17 @@
     }
 
     #discography {
-        background-color: orange;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: discography;
     }
 
     #discographyComplete {
-        background-color: brown;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: discographyComplete;
     }
 
     #footer {
-        background-color: green;
+        background-image: linear-gradient(to bottom, green, yellowgreen);
         grid-area: footer;
         display: flex;
     }
@@ -234,7 +234,7 @@
     #bodyMembers {
         width: 100%;
         height: 100%;
-        background-color: crimson;
+        background-image: linear-gradient(to right, red, crimson, yellow);
 
         display: grid;
 
@@ -300,7 +300,7 @@
     }
 
     #header {
-        background-color: aqua;
+        background-image: linear-gradient(to right, skyblue, blue);
         grid-area: header;
         display: flex;
         flex-flow: column wrap;
@@ -308,38 +308,38 @@
     }
 
     #members {
-        background-color: brown;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: members;
 
     }
 
     #membersOliver {
-        background-color: brown;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: membersOliver;
     }
 
     #membersMattNicholls {
-        background-color: red;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: membersMattNicholls;
     }
 
     #membersLee {
-        background-color: skyblue;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: membersLee;
     }
 
     #membersMattKean {
-        background-color: violet;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: membersMattKean;
     }
 
     #membersJordan {
-        background-color: yellow;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: membersJordan;
     }
 
     #footer {
-        background-color: green;
+        background-image: linear-gradient(to bottom, green, yellowgreen);
         grid-area: footer;
         display: flex;
     }
@@ -349,7 +349,7 @@
     #bodyContact {
         width: 100%;
         height: 100%;
-        background-color: crimson;
+        background-image: linear-gradient(to right, red, crimson, yellow);
 
         display: grid;
 
@@ -373,7 +373,7 @@
     }
 
     #header {
-        background-color: aqua;
+        background-image: linear-gradient(to right, skyblue, blue);
         grid-area: header;
         display: flex;
         flex-flow: column wrap;
@@ -381,18 +381,18 @@
     }
 
     #contactUs {
-        background-color: brown;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: contactUs;
 
     }
 
     #boxForm {
-        background-color: brown;
+        background-image: linear-gradient(to right, red, crimson, yellow);
         grid-area: boxForm;
     }
 
     #footer {
-        background-color: green;
+        background-image: linear-gradient(to bottom, green, yellowgreen);
         grid-area: footer;
         display: flex;
     }
@@ -420,6 +420,19 @@
         position: relative;
         top: -5px;
         left: 20px;
+    }
+
+    input {
+        width: 200px;
+        height: 20px;
+        transition: all 1s;
+    }
+
+    input:focus {
+        width: 50%;
+        height: 60px;
+        background-image: linear-gradient(skyblue, purple);
+        transform: translate(100px); 
     }
     
     .menu ul {
@@ -500,6 +513,11 @@
 
         position: relative;
         top: 25px;
+    }
+
+    .miniGallery img:hover {
+        transform: scale(4,4);
+        transition: 2s;
     }
 
     .nameBand {
@@ -671,7 +689,7 @@
     }
 
     .titleOliver, .titleMattN, .titleLee, .titleMattKean, .titleJordan {
-        background-color: aqua;
+        background-color: crimson;
         color: black;
         font-family: 'Permanent Marker', cursive;
         font-size: 30px;
@@ -822,7 +840,6 @@
     }
     
     .descriptionContactUs {
-        background-color: aqua;
         color: black;
         font-family: 'Courier New', Courier, monospace;
         font-size: 25px;
@@ -833,7 +850,6 @@
     }
     
     .form {
-        background-color: violet;
         width: 100%;
         height: 550px;
         text-align: center;
